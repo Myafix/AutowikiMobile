@@ -25,10 +25,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "package": "com.myafix.autowiki"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c1ee054-f92d-4e66-9218-fbc54e44bee1"
+      }
     }
   }
 }

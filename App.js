@@ -1,20 +1,20 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import PdfRead from './components';
+import Pdf from './components/Pdf';
+import { NavigationContainer } from '@react-navigation/native';
+import Appstack from './src/Navigation/Appstack';
+import Colors from './constants/Colors';
+import Authstack from './src/Navigation/Authstack';
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <PdfRead/>
-    </View>
+    <NavigationContainer>
+      <StatusBar style="light" />
+      {/* <Authstack /> */}
+      <Appstack />
+    </NavigationContainer>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
