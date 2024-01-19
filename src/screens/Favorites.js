@@ -13,18 +13,18 @@ import MaintenanceList from '../../components/MaintenanceList';
 
 //Статик данные для списка
 const MaintenanceData = [
-  { id: "1", name: "Название автомобиля" },
-  { id: "2", name: "Название автомобиля" },
-  { id: "3", name: "Название автомобиля" },
-  { id: "4", name: "Название автомобиля" },
+  { id: "1", name: "Toyota Mark II" },
+  { id: "2", name: "Nissan Almera" },
+  { id: "3", name: "Toyota corolla" },
+  { id: "4", name: "Mercedes cls 63 amg" },
   
 ];
 
 const DecisionData = [
-  { id: "1", name: "Название темы" },
-  { id: "2", name: "Название темы" },
-  { id: "3", name: "Название темы" },
-  { id: "4", name: "Название темы" },
+  { id: "1", name: "Замена лампочки в салоне Toyota Corolla" },
+  { id: "2", name: "Установка 2JZ-GTE" },
+  { id: "3", name: "Лучший автосервис в Подольске" },
+  { id: "4", name: "Маскировка номера авто" },
   
 ];
 

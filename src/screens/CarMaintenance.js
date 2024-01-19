@@ -13,9 +13,8 @@ import MaintenanceList from '../../components/MaintenanceList';
 
 const MaintenanceData = [
   { id: "1", name: "Об авто" },
-  { id: "2", name: "Название раздела" },
-  { id: "3", name: "Электроника" },
-  { id: "4", name: "Двигатель" },
+  { id: "2", name: "Электроника" },
+  { id: "3", name: "Двигатель" },
 ];
 
 const CarMaintenance = ({ navigation }) => {

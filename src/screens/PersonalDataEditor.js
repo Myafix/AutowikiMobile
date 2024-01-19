@@ -7,6 +7,7 @@ import {
   ScrollView,
   StatusBar,
 } from 'react-native';
+import AppHeader from '../../components/AppHeader';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Colors from '../../constants/Colors';
 import InputField from '../../components/InputField';
